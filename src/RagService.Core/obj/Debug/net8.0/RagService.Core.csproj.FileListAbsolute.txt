@@ -9,3 +9,4 @@ E:\Hackaton\src\RagService.Core\obj\Debug\net8.0\RagService.Core.dll
 E:\Hackaton\src\RagService.Core\obj\Debug\net8.0\refint\RagService.Core.dll
 E:\Hackaton\src\RagService.Core\obj\Debug\net8.0\RagService.Core.pdb
 E:\Hackaton\src\RagService.Core\obj\Debug\net8.0\ref\RagService.Core.dll
+E:\Hackaton\src\RagService.Core\obj\Debug\net8.0\RagService.Core.sourcelink.json

@@ -44,3 +44,4 @@ E:\Hackaton\src\RagService.Api\obj\Debug\net8.0\refint\RagService.Api.dll
 E:\Hackaton\src\RagService.Api\obj\Debug\net8.0\RagService.Api.pdb
 E:\Hackaton\src\RagService.Api\obj\Debug\net8.0\RagService.Api.genruntimeconfig.cache
 E:\Hackaton\src\RagService.Api\obj\Debug\net8.0\ref\RagService.Api.dll
+E:\Hackaton\src\RagService.Api\obj\Debug\net8.0\RagService.Api.sourcelink.json

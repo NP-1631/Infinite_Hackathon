@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: rag-service
+    env: docker
+    plan: free
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+      - key: RagSettings__LlmProvider
+        value: OpenAI
+      - key: RagSettings__EmbeddingProvider
+        value: OpenAI
+      - key: RagSettings__OpenAi__ApiKey
+        sync: false  # Render will prompt you for this value securely during setup

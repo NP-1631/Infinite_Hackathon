@@ -1,0 +1,12 @@
+**/.git
+**/.vs
+**/.vscode
+**/bin
+**/obj
+**/out
+Dockerfile
+.dockerignore
+render.yaml
+*.py
+*.sln.user
+*.suo

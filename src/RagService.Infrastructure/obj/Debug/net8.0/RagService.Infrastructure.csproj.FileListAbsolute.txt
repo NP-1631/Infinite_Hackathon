@@ -13,3 +13,4 @@ E:\Hackaton\src\RagService.Infrastructure\obj\Debug\net8.0\RagService.Infrastruc
 E:\Hackaton\src\RagService.Infrastructure\obj\Debug\net8.0\refint\RagService.Infrastructure.dll
 E:\Hackaton\src\RagService.Infrastructure\obj\Debug\net8.0\RagService.Infrastructure.pdb
 E:\Hackaton\src\RagService.Infrastructure\obj\Debug\net8.0\ref\RagService.Infrastructure.dll
+E:\Hackaton\src\RagService.Infrastructure\obj\Debug\net8.0\RagService.Infrastructure.sourcelink.json
