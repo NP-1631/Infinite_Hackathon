@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "A/w7BPSmk5mVCvMd2L0Px+0gn4WV8Ebd+sgMsd44uzE=",
+  "Source": "RagService.Api",
+  "BasePath": "_content/RagService.Api",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RagService.Api\\wwwroot",
+      "Source": "RagService.Api",
+      "ContentRoot": "E:\\Hackaton\\src\\RagService.Api\\wwwroot\\",
+      "BasePath": "_content/RagService.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\Hackaton\\src\\RagService.Api\\wwwroot\\app.js",
+      "SourceId": "RagService.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Hackaton\\src\\RagService.Api\\wwwroot\\",
+      "BasePath": "_content/RagService.Api",
+      "RelativePath": "app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "E:\\Hackaton\\src\\RagService.Api\\wwwroot\\index.html",
+      "SourceId": "RagService.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Hackaton\\src\\RagService.Api\\wwwroot\\",
+      "BasePath": "_content/RagService.Api",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "E:\\Hackaton\\src\\RagService.Api\\wwwroot\\style.css",
+      "SourceId": "RagService.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Hackaton\\src\\RagService.Api\\wwwroot\\",
+      "BasePath": "_content/RagService.Api",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
+}

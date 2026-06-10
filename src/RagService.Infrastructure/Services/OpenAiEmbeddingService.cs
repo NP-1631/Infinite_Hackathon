@@ -29,7 +29,8 @@ namespace RagService.Infrastructure.Services
                 return GetMockEmbedding(text);
             }
 
-            var requestMessage = new HttpRequestMessage(HttpMethod.Post, "https://api.openai.com/v1/embeddings");
+            var baseUrl = _settings.OpenAi.BaseUrl.TrimEnd('/');
+            var requestMessage = new HttpRequestMessage(HttpMethod.Post, $"{baseUrl}/embeddings");
             requestMessage.Headers.Authorization = new AuthenticationHeaderValue("Bearer", _settings.OpenAi.ApiKey);
 
             var payload = new OpenAiEmbeddingRequest

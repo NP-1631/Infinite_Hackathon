@@ -30,7 +30,8 @@ namespace RagService.Infrastructure.Services
                 return SmartFallbackGenerator.GenerateSmartFallback(prompt, "OpenAI", _settings.OpenAi.LlmModel, "https://api.openai.com/v1");
             }
 
-            var requestMessage = new HttpRequestMessage(HttpMethod.Post, "https://api.openai.com/v1/chat/completions");
+            var baseUrl = _settings.OpenAi.BaseUrl.TrimEnd('/');
+            var requestMessage = new HttpRequestMessage(HttpMethod.Post, $"{baseUrl}/chat/completions");
             requestMessage.Headers.Authorization = new AuthenticationHeaderValue("Bearer", _settings.OpenAi.ApiKey);
 
             var messages = new List<OpenAiChatMessage>();

@@ -10,5 +10,11 @@ services:
         value: OpenAI
       - key: RagSettings__EmbeddingProvider
         value: OpenAI
+      - key: RagSettings__OpenAi__BaseUrl
+        value: https://generativelanguage.googleapis.com/v1beta/openai
+      - key: RagSettings__OpenAi__LlmModel
+        value: gemini-1.5-flash
+      - key: RagSettings__OpenAi__EmbeddingModel
+        value: text-embedding-004
       - key: RagSettings__OpenAi__ApiKey
-        sync: false  # Render will prompt you for this value securely during setup
+        sync: false  # Render will prompt you for your Gemini API Key securely during setup
